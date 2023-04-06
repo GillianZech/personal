@@ -6,17 +6,24 @@ main {
 
 }
 
-h2 {
-
-}
-
 .text {
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
+.text1 {
+    width: 50%;
+}
+
+.text p {
+    max-width: 1000px;
+    width: 40%;
+    text-align: right;
 }
 
 .cards {
@@ -29,10 +36,12 @@ h2 {
     min-width: 300px;
     margin: 10px;
     width: 30%;
+    transition: transform 300ms ease;
+
 }
 
 .card:hover {
-    
+    transform: scale(1.1);
 }
 
 .card-img-top {
@@ -43,6 +52,18 @@ h2 {
 .bg-hack {
     background-image: url(../media/hackathons.png);
     background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
+.bg-code {
+    background-image: url(../media/code2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-mahjong {
+    background-image: url(../media/mahjong.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
