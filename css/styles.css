@@ -1,0 +1,10 @@
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:focus {
+    color: black;
+    /* make larger */
+}
