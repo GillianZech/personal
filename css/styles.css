@@ -1,12 +1,56 @@
+* {
+    margin: 0;
+    
+}
 body {
     background-color: black;
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 700%;
+    font-family: 'Gugi', cursive;
+    margin-bottom: 0;
+}
+
+header {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header figure {
+    width: 30%;
+    /* margin-left: 20px; */
+}
+
+header figure img {
+    width: 100%;
+}
+
+h5 {
+    color: rgb(171, 171, 171);
 }
 
 a {
     cursor: pointer;
     text-decoration: none;
     color: white;
+}
+
+nav a {
+    color: white !important;
+}
+
+.active {
+    color: black !important;
 }
 
 a:hover, a:focus {
@@ -16,4 +60,10 @@ a:hover, a:focus {
 
 .card a {
     color: black;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 300%;
+    }
 }

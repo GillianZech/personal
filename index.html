@@ -5,62 +5,72 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale-1, shrink-to-fit=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/index.css">
+
     <title>Gillian</title>
 </head>
 
 <body>
-    <header>
-        <nav class="nav nav-tabs" id="nav-tab">
+    <nav class="nav nav-tabs" id="nav-tab">
             <a class="nav-link active" id="nav-home-tab" href="#" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
             <a class="nav-link" href="resume.html" role="tab" aria-selected="false">Résumé</a>
-        </nav>
-        <h1>GILLIAN ZECH</h1>
-        <h3>she/her</h3>
-          <!-- <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tempore tempora molestiae pariatur, voluptate fuga corrupti est reiciendis maxime totam dolores, voluptates, dolorem eaque sequi.</div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, natus sed soluta necessitatibus tempore aspernatur? Praesentium, odit explicabo distinctio dolore adipisci officia iure, ut magnam optio aliquam at similique veritatis.</div>
-          </div> -->
-        
+    </nav>
+    <header>
+        <div class="header">
+            <h1>GILLIAN ZECH</h1>
+            <h5>she/her</h5>
+        </div>
+        <figure>
+            <img src="media/selfie.jpg">
+        </figure>
     </header>
-    <a href="resume.html">About Me</a>
     <main>
-        <p>
-            Name: Gillian Zech
-            Favorite Pastimes: Mahjong, board games, casual video games, hackathons, juggling
-            Pictures/Videos: <img></img>
-            Major: Computer Science & Linguistics, Data Science minor
-            Hometown: Raleigh, North Carolina
-        </p>
+        <div class="text">
+            <h3>Junior at the University of North Carolina at Chapel Hill</h3>
+            <p>Computer Science & Linguistics
+                <br>
+                Minor in Data Science
+            </p>
+            <p>I hail from Raleigh, NC and I like to explore my interests in web development, 
+                natural language processing, game development, computational linguistics, 
+                and data science. I love to juggle, dance, compete in hackathons, and play casual games with friends.
+            </p>
+            <h2>Explore a little bit about me!</h2>
+        </div>
         <div class="cards">
             <div class="card">
                 <a href="https://devpost.com/GillianZech?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
-                    <img src="media/hackathons.png" class="card-img-top" alt="card-img-top">
+                    <!-- <img src="media/hackathons.png" class="card-img-top" alt="card-img-top"> -->
+                    <div class="bg-hack card-img-top"></div>
                     <div class="card-body">
                     <h5 class="card-title">Hackathons</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">5-time hackathon award-winner at Pearl Hacks, HackNC, and Carolina Data Challenge.</p>
+                    <p class="card-text"><small class="text-muted">My DevPost page</small></p>
                     </div>
                 </a>
             </div>
             <div class="card">
-                <a href="media/code.png">
+                <a href="https://comp126.com">
                     <img src="media/code.png" class="card-img-top" alt="card-img-top">
                     <div class="card-body">
                     <h5 class="card-title">Learning Assistant</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">Undergraduate learning assistant (ULA) for COMP 126: Practical Web Design and Development for Everyone with Prof. Joseph-Nicholas.</p>
+                    <p class="card-text"><small class="text-muted">COMP 126 Website</small></p>
                     </div>
                 </a>
             </div>
             <div class="card">
-                <a href="">
+                <a href="https://heellife.unc.edu/organization/uncmc">
                     <img src="media/mahjong.jpg" class="card-img-top" alt="card-img-top">
                     <div class="card-body">
                     <h5 class="card-title">Mahjong</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">Treasurer of the Mahjong Club at UNC. Meets twice a week and always welcomes beginners!</p>
+                    <p class="card-text"><small class="text-muted">Mahjong Club at UNC</small></p>
                     </div>
                 </a>
             </div>
@@ -68,16 +78,14 @@
     </main>
     <footer>
         Gillian Zech, she/her
-The University of North Carolina at Chapel Hill
-ULA for COMP 126 with Prof. Joseph-Nicholas
-Comp. Sci. and Linguistics | Class of 2024
-ginger01@email.unc.edu
-<footer>
+        The University of North Carolina at Chapel Hill
+        ULA for COMP 126 with Prof. Joseph-Nicholas
+        Comp. Sci. and Linguistics | Class of 2024
+        ginger01@email.unc.edu
         <a href="">LinkedIn</a>
         <a href="">GitHub</a>
         <a href="">DevPost</a>
         <p>zech.gillian@gmail.com</p>
-    </footer>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
